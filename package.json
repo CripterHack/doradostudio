@@ -1,0 +1,23 @@
+{
+  "name": "doradostudio",
+  "version": "1.5.0",
+  "description": "web doradostudio",
+  "main": "index.js",
+  "author": "IzignaMx",
+  "license": "GNU CC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.1.0",
+    "grunt-postcss": "^0.4.0"
+  },
+  "dependencies": {
+    "maxmin": "^1.1.0"
+  }
+}

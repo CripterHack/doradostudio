@@ -1,0 +1,293 @@
+<?php
+$thisPageLang="en";
+include '../assets/php/langs.php';
+?>
+<!DOCTYPE html>
+<html lang="en" class="no-js home" id="home" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Doradostudio a space of constant experimentation, a creative epicenter moving feeding and shares the vision of its founder Carlos Navarro. A sharp intersection where values, canons and traditions of the past with the contents, materials and optics of the future, endless possibilities merge.">
+<meta name="keywords" content="central de diseño, diseño, central, hub, doradostudio" />
+<meta name="author" content="Izigna Mx | designer Edgar Zorrilla">
+<meta name="copyright" content="doradostudio" />
+<meta name="robots" content="all, follow" />
+<meta name="distribution" content="global"/>
+<link rev="made" href="mailto:edgar@izigna.mx">
+<title>doradostudio | hub design</title>
+<link rel="shortcut icon" href="../assets/img/icon-logo.png" type="image/png">
+<link rel="shortcut icon" href="../assets/img/icon-logo.jpg" type="image/jpeg">
+<link rel="shortcut icon" href="../assets/img/icon-logo.gif" type="image/gif">
+<link rel="stylesheet" type="text/css" href="../assets/css/style.min.css">
+<!--[if IE]>
+<script src="../assets/js/html5shiv.js"></script>
+<script src="../assets/js/assets/respond.min.js"></script>
+<![endif]-->
+<script src="../assets/js/modernizr.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://www.google.com.mx/chrome/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<div id="loader-wrapper">
+    <div id="loader" class="loader col-md-4"><span></span></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<header>
+  <nav class="navigation animated fadeInUp" id="navigation">
+    <ul>
+      <li class="langs-select">
+        <a class="col-md-6 active" href="#">en</a>
+        <a class="col-md-6" href="http://doradostudio.com.mx/es/index.html">es</a>
+      </li>
+      <li><a class="active" href="#">home</a></li>
+      <li><a href="projects/">projects</a></li>
+      <li><a href="collections/">collections</a></li>
+      <li><a href="about/">about</a></li>
+      <li><a href="press/">press</a></li>
+      <li><a href="philosophy/">philosophy</a>
+      <li><a href="contact/">contact</a></li>
+    </ul>
+  </nav>
+  <input type="checkbox" id="toggle"/>
+  <label for="toggle" id="toggle-btn"></label>
+  <div class="nav-icon"></div>
+  <div id="logo" class="logo animated fadeInDown"></div>
+  <div class="logo2"></div>
+  <nav class="responsive-menu" data-state="close">
+    <ul>
+      <li>
+        <a class="col-md-6" href="#">en</a>
+        <a class="col-md-6" href="../es">es</a>
+      </li>
+      <li><a class="active" href="#">home</a></li>
+      <li><a href="projects/">projects</a></li>
+      <li><a href="collections/">collections</a></li>
+      <li><a href="about/">about</a></li>
+      <li><a href="press/">press</a></li>
+      <li><a href="philosophy/">philosophy</a>
+      <li><a href="contact/">contact</a></li>
+    </ul>
+  </nav>
+</header>
+<!--section-->
+<!-- Slider -->
+  <div class="col-md-12 no-padd toUp animated fadeInUp over-hidden" style="padding-bottom: 25px !important;">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+        <!-- HERE -->
+          <!--div class="item active slide1">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal01">+</a>
+            </div>
+              <div id="modal01" class="carousel-caption">
+                <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div-->
+          <!-- END -->
+          <div class="item slide2">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal02">+</a>
+            </div>
+              <div id="modal02" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide3">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal03">+</a>
+            </div>
+              <div id="modal03" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide4">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal04">+</a>
+            </div>
+              <div id="modal04" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide5">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal05">+</a>
+            </div>
+              <div id="modal05" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide6">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal06">+</a>
+            </div>
+              <div id="modal06" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide7">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal07">+</a>
+            </div>
+              <div id="modal07" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide8">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal08">+</a>
+            </div>
+              <div id="modal08" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide9">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal09">+</a>
+            </div>
+              <div id="modal09" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <!-- HERE -->
+          <!--div class="item slide10">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal10">+</a>
+            </div>
+              <div id="modal10" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide11">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal11">+</a>
+            </div>
+              <div id="modal11" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide12">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal12">+</a>
+            </div>
+              <div id="modal12" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div-->
+          <!-- END -->
+          <div class="item slide14">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal14">+</a>
+            </div>
+              <div id="modal14" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <!-- HERE -->
+          <!--div class="item slide15">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal15">+</a>
+            </div>
+              <div id="modal15" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div>
+          <div class="item slide16">
+            <div class="info-slider">
+              <a id="infoModal" style="transition: all 0.5s ease;display: block;" title="about this project..." href="#modal16">+</a>
+            </div>
+              <div id="modal16" class="carousel-caption">
+               <div class="hover-text">
+                  <h3>title image</h3>
+                  <p>description</p>
+                  <button type="button" class="btn-style" title="see collections" onClick="window.location.href='collections/index.html'">more</button>
+                </div>
+              </div>
+          </div-->
+          <!-- END -->
+        </div>
+      </div>
+  </div>
+</section>
+<footer class="copyright">
+    <div class="col-md-6 col-xs-3 no-padd">
+      <ul class="no-margin social">
+        <li>
+          <a href="https://es-la.facebook.com/doradostudio.navarro">
+            <i class="fa fa-facebook-official"></i>
+          </a>
+        </li>
+        <li>
+          <a href="http://archinect.com/people/cover/52306921/juan-carlos-navarro">
+            <img src="../assets/img/social/social-archinet.png" />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6 col-xs-9 no-padd">
+      <p class="footer-right">doradostudio &copy; 2015 | Design by <a href="http://izigna.mx/"><img src="../assets/img/logo-izigna.png" title="Izigna Mx" style="max-height: 24px;margin-top: -5px;" /></a>&nbsp;</p>
+    </div>
+  </footer>
+</body>
+<script src='../assets/js/main.min.js'></script>
+<script type="text/javascript">
+  $('body').toggleClass('loaded');
+</script>
+</html>
